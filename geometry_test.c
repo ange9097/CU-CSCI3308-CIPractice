@@ -172,14 +172,14 @@ START_TEST(test_triangle_area_2)
     coord_2d_t c;
     double area, answer;
 
-    a.x = 31;
-    a.y = 17;
-    b.x = 32;
-    b.y = 32;
-    c.x = 49;
-    c.y = 14;
+    a.x = -6;
+    a.y = 16;
+    b.x = 22;
+    b.y = 39;
+    c.x = 52;
+    c.y = -3;
     answer = coord_2d_area_triangle(&a, &b, &c);
-    area = 136.50;
+    area = 933.00;
     ck_assert(answer == area);
 
 }
