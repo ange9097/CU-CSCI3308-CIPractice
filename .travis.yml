@@ -1,4 +1,3 @@
-install: check
-language: c
-compiler: gcc
-target: ./geometry_test
+language:
+install:
+target:
